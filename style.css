@@ -339,7 +339,6 @@ body {
   text-align: center;
 }
 .card-1 {
-  background: url(./img/banner/b7.jpg);
   width: 33%;
   height: 30vh;
   background-size: cover;
@@ -348,7 +347,6 @@ body {
   margin: 25px 15px 0 0;
 }
 .card-2 {
-  background: url(./img/banner/b4.jpg);
   width: 33%;
   height: 30vh;
   background-size: cover;
@@ -357,7 +355,6 @@ body {
   margin: 25px 15px 0 15px;
 }
 .card-3 {
-  background: url(./img/banner/b18.jpg);
   width: 33%;
   height: 30vh;
   background-size: cover;
@@ -376,8 +373,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: start;
-  background: url(./img/banner/b17.jpg);
+  align-items: flex-start;
+  background: url(./img/banner/b7.jpg);
   height: 30vh;
   min-width: 30%;
   background-size: cover;
@@ -385,6 +382,7 @@ body {
   padding: 20px;
   margin-bottom: 20px;
 }
+
 #banner3 .banner-box h2 {
   color: #fff;
   font-weight: 800;
@@ -394,4 +392,13 @@ body {
   color: #ec544e;
   font-weight: 800;
   font-size: 1rem;
+}
+#banner3 .banner-box-2 {
+  background: url(./img/banner/b4.jpg);
+  background-size: cover;
+}
+
+#banner3 .banner-box-3 {
+  background: url(./img/banner/b18.jpg);
+  background-size: cover;
 }
