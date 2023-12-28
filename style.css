@@ -362,6 +362,7 @@ body {
   background-repeat: no-repeat;
   margin: 25px 0 0 15px;
 }
+/* Banner 3 */
 #banner3 {
   display: flex;
   justify-content: space-between;
@@ -401,4 +402,53 @@ body {
 #banner3 .banner-box-3 {
   background: url(./img/banner/b18.jpg);
   background-size: cover;
+}
+
+/* NewsLetter */
+#newsletter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background-image: url("./img/banner/b14.png");
+  background-repeat: no-repeat;
+  background-color: #041e42;
+  background-position: 20% 30%;
+}
+
+.newstext h4 {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.newstext p {
+  color: #818ea0;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+.newstext p span {
+  color: #ffbd27;
+}
+#newsletter .form {
+  display: flex;
+  width: 40%;
+}
+.form input {
+  height: 3.125rem;
+  padding: 0 1.5em;
+  font-size: 0.8rem;
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  outline: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+#newsletter button {
+  background-color: #088178;
+  color: #fff;
+  white-space: nowrap;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  cursor: pointer;
 }
